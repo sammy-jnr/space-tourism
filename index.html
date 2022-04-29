@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Poppins:wght@200&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,10 +17,10 @@
             <img src="icons&logos\icon-hamburger.svg" alt="" id="menuopen">
             <nav id="navbar">
                 <img src="icons&logos\icon-close.svg" alt="" id="menuclose">
-                <div class="nav_items home">HOME</div>
-                <div class="nav_items destination">DESTINATION</div>
-                <div class="nav_items crew">CREW</div>
-                <div class="nav_items technology">TECHNOLOGY</div>
+                <div class="nav_items" id="home">HOME</div>
+                <div class="nav_items" id="destinations">DESTINATION</div>
+                <div class="nav_items" id="crew">CREW</div>
+                <div class="nav_items" id="technology">TECHNOLOGY</div>
             </nav>
             <div id="home_info_div">
                 <div class="text ">SO, YOU WANT TO TRAVEL TO</div>
@@ -34,10 +37,10 @@
             <img src="icons&logos\icon-hamburger.svg" alt="" id="menuopen2">
             <nav id="navbar2">
                 <img src="icons&logos\icon-close.svg" alt="" id="menuclose2">
-                <div class="nav_items home">HOME</div>
-                <div class="nav_items destination">DESTINATION</div>
-                <div class="nav_items crew">CREW</div>
-                <div class="nav_items technology">TECHNOLOGY</div>
+                <div class="nav_items" id="home2">HOME</div>
+                <div class="nav_items" id="destinations2">DESTINATION</div>
+                <div class="nav_items" id="crew2">CREW</div>
+                <div class="nav_items" id="technology2">TECHNOLOGY</div>
             </nav>
             <div class="text">PICK YOUR DESTINATION</div>
             <div id="emptydiv"></div>
@@ -107,15 +110,15 @@
                 <div class="destination_moon_text2">7 YEARS</div>
             </div>
         </div>
-        <div id="crew">
+        <div id="crewpage">
             <img src="icons&logos\logo.svg" alt="" id="logo_icon3">
             <img src="icons&logos\icon-hamburger.svg" alt="" id="menuopen3">
             <nav id="navbar3">
                 <img src="icons&logos\icon-close.svg" alt="" id="menuclose3">
-                <div class="nav_items home">HOME</div>
-                <div class="nav_items destination">DESTINATION</div>
-                <div class="nav_items crew">CREW</div>
-                <div class="nav_items technology">TECHNOLOGY</div>
+                <div class="nav_items" id="home3">HOME</div>
+                <div class="nav_items" id="destinations3">DESTINATION</div>
+                <div class="nav_items" id="crew3">CREW</div>
+                <div class="nav_items" id="technology3">TECHNOLOGY</div>
             </nav>
             <div id="crew_text1">MEET YOUR CREW</div>
             <div id="emptydiv2">
@@ -168,6 +171,56 @@
                     and the first Iranian in space.
                 </div>
             </div>  
+        </div>
+        <div id="technologypage">
+            <img src="icons&logos\logo.svg" alt="" id="logo_icon4">
+            <img src="icons&logos\icon-hamburger.svg" alt="" id="menuopen4">
+            <nav id="navbar4">
+                <img src="icons&logos\icon-close.svg" alt="" id="menuclose4">
+                <div class="nav_items" id="home4">HOME</div>
+                <div class="nav_items" id="destinations4">DESTINATION</div>
+                <div class="nav_items" id="crew4">CREW</div>
+                <div class="nav_items" id="technology4">TECHNOLOGY</div>
+            </nav>
+            <div class="technologytext1">SPACE LAUNCH 101</div>
+            <div class="technology_imgdiv">
+                <img src="mobileimages\image-spaceport-portrait.jpg" alt="" class="techimg" id="spaceport">
+                <img src="mobileimages\image-space-capsule-portrait.jpg" alt="" class="techimg" id="space_capsule">
+                <img src="mobileimages\image-launch-vehicle-portrait.jpg" alt="" class="techimg" id="launch_vehicle">
+                <div id="tech_changingdiv">
+                    <div id="changediv1" class="tech_change_divs">1</div>
+                    <div id="changediv2" class="tech_change_divs">2</div>
+                    <div id="changediv3" class="tech_change_divs">3</div>
+                </div>
+                <div id="tech_launch_vehicle">
+                    <div class="technologytext2">THE TERMINOLOGY...</div>
+                    <div class="technologytext3">LAUNCH VECHICLE</div>
+                    <div class="technologytext4"> A launch vehicle or carrier rocket is a 
+                        rocket-propelled vehicle used to carry a payload from Earth's surface to space,
+                        usually to Earth orbit or beyond.
+                        Our WEB-X carrier rocket is the most powerful in operation.
+                        Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+                    </div>
+                </div>
+                <div id="tech_spaceport">
+                    <div class="technologytext2">THE TERMINOLOGY...</div>
+                    <div class="technologytext3">SPACEPORT</div>
+                    <div class="technologytext4"> A spaceport or cosmodrome is a site for launching
+                        (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. 
+                        Based in the famous Cape Canaveral, our spaceport is ideally situated to take 
+                        advantage of the Earth’s rotation for launch.
+                    </div>
+                </div>
+                <div id="tech_spacecapsule">
+                    <div class="technologytext2">THE TERMINOLOGY...</div>
+                    <div class="technologytext3">SPACE CAPSULE</div>
+                    <div class="technologytext4">A space capsule is an often-crewed spacecraft that uses a blunt-body
+                        reentry capsule to reenter the Earth's atmosphere without wings. 
+                        Our capsule is where you'll spend your time during the flight.
+                        It includes a space gym, cinema, and plenty of other activities to keep you entertained.
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     

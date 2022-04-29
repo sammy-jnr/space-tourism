@@ -20,7 +20,7 @@ openicon2.addEventListener("click", () => {
 closeicon2.addEventListener("click", ()=>{
     navbar2.style.display = "none"
 })
-//crew nav
+//crewpage nav
 let openicon3 = document.getElementById("menuopen3")
 let closeicon3 = document.getElementById("menuclose3")
 let navbar3 = document.getElementById("navbar3")
@@ -31,6 +31,170 @@ openicon3.addEventListener("click", () => {
 closeicon3.addEventListener("click", ()=>{
     navbar3.style.display = "none"
 })
+//technology nav
+let openicon4 = document.getElementById("menuopen4")
+let closeicon4 = document.getElementById("menuclose4")
+let navbar4 = document.getElementById("navbar4")
+
+openicon4.addEventListener("click", () => {
+    navbar4.style.display = "block"
+})
+closeicon4.addEventListener("click", ()=>{
+    navbar4.style.display = "none"
+})
+
+const homepage = document.getElementById("Homepage")
+const destinationpage = document.getElementById("destinationpage")
+const crewpage = document.getElementById("crewpage")
+const technologypage = document.getElementById("technologypage")
+
+
+
+//page1
+
+let home = document.getElementById("home")
+let destinations = document.getElementById("destinations")
+let crew = document.getElementById("crew")
+let technology = document.getElementById("technology")
+
+home.addEventListener("click", ()=>{
+    navbar.style.display = "none"
+    homepage.style.display = "block"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+destinations.addEventListener("click", ()=>{
+    navbar.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "block"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+crew.addEventListener("click", ()=>{
+    navbar.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "block"
+    technologypage.style.display = "none"
+})
+technology.addEventListener("click", ()=>{
+    navbar.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "block"
+})
+
+//page 2 nav items
+let home2 = document.getElementById("home2")
+let destination2 = document.getElementById("destinations2")
+let crew2 = document.getElementById("crew2")
+let technology2 = document.getElementById("technology2")
+
+home2.addEventListener("click", ()=>{
+    navbar2.style.display = "none"
+    homepage.style.display = "block"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+destination2.addEventListener("click", ()=>{
+    navbar2.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "block"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+crew2.addEventListener("click", ()=>{
+    navbar2.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "block"
+    technologypage.style.display = "none"
+})
+technology2.addEventListener("click", ()=>{
+    navbar2.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "block"
+})
+
+
+// page 3 nav items
+let home3 = document.getElementById("home3")
+let destinations3 = document.getElementById("destinations3")
+let crew3 = document.getElementById("crew3")
+let technology3 = document.getElementById("technology3")
+
+home3.addEventListener("click", ()=>{
+    navbar3.style.display = "none"
+    homepage.style.display = "block"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+destinations3.addEventListener("click", ()=>{
+    navbar3.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "block"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+crew3.addEventListener("click", ()=>{
+    navbar3.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "block"
+    technologypage.style.display = "none"
+})
+technology3.addEventListener("click", ()=>{
+    navbar3.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "block"
+})
+
+
+//page 4 nav items
+
+let home4 = document.getElementById("home4")
+let destinations4 = document.getElementById("destinations4")
+let crew4 = document.getElementById("crew4")
+let technology4 = document.getElementById("technology4")
+
+home4.addEventListener("click", ()=>{
+    navbar4.style.display = "none"
+    homepage.style.display = "block"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+destinations4.addEventListener("click", ()=>{
+    navbar4.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "block"
+    crewpage.style.display = "none"
+    technologypage.style.display = "none"
+})
+crew4.addEventListener("click", ()=>{
+    navbar4.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "block"
+    technologypage.style.display = "none"
+})
+technology4.addEventListener("click", ()=>{
+    navbar4.style.display = "none"
+    homepage.style.display = "none"
+    destinationpage.style.display = "none"
+    crewpage.style.display = "none"
+    technologypage.style.display = "block"
+})
+
+
 
 // changing destinations
 let moon = document.getElementById("moon")
@@ -115,7 +279,7 @@ titan.addEventListener("click", () => {
     titanimg.style.display = "block"
 })
 
-//CREW PAGE
+//crewpage PAGE
 let crewinfo1 = document.getElementById("crewinfo1")
 let crewinfo2 = document.getElementById("crewinfo2")
 let crewinfo3 = document.getElementById("crewinfo3")
@@ -196,4 +360,70 @@ crewinfo4.addEventListener("click", () => {
     crewimg1.style.display = "none"
     crewimg2.style.display = "none"
     crewimg3.style.display = "block"
+})
+
+//technology page
+let changediv1 = document.getElementById("changediv1")
+let changediv2 = document.getElementById("changediv2")
+let changediv3 = document.getElementById("changediv3")
+
+let tech_launch_vehicle = document.getElementById("tech_launch_vehicle")
+let tech_spaceport = document.getElementById("tech_spaceport")
+let tech_spacecapsule = document.getElementById("tech_spacecapsule")
+
+let launch_vehicle = document.getElementById("launch_vehicle")
+let spaceport = document.getElementById("spaceport")
+let space_capsule = document.getElementById("space_capsule")
+
+
+
+changediv1.addEventListener("click" ,() =>{
+    changediv1.style.color = "black"
+    changediv1.style.backgroundColor = "white"
+    changediv2.style.color = "white"
+    changediv2.style.backgroundColor = "black"
+    changediv3.style.color = "white"
+    changediv3.style.backgroundColor = "black"
+
+    tech_launch_vehicle.style.display = "block"
+    tech_spaceport.style.display = "none"
+    tech_spacecapsule.style.display = "none"
+
+    launch_vehicle.style.display = "block"
+    spaceport.style.display = "none"
+    space_capsule.style.display = "none"
+})
+
+changediv2.addEventListener("click" ,() =>{
+    changediv1.style.color = "white"
+    changediv1.style.backgroundColor = "black"
+    changediv2.style.color = "black"
+    changediv2.style.backgroundColor = "white"
+    changediv3.style.color = "white"
+    changediv3.style.backgroundColor = "black"
+
+    tech_launch_vehicle.style.display = "none"
+    tech_spaceport.style.display = "block"
+    tech_spacecapsule.style.display = "none"
+
+    launch_vehicle.style.display = "none"
+    spaceport.style.display = "block"
+    space_capsule.style.display = "none"
+})
+
+changediv3.addEventListener("click" ,() =>{
+    changediv1.style.color = "white"
+    changediv1.style.backgroundColor = "black"
+    changediv2.style.color = "white"
+    changediv2.style.backgroundColor = "black"
+    changediv3.style.color = "black"
+    changediv3.style.backgroundColor = "white"
+
+    tech_launch_vehicle.style.display = "none"
+    tech_spaceport.style.display = "none"
+    tech_spacecapsule.style.display = "block"
+
+    launch_vehicle.style.display = "none"
+    spaceport.style.display = "none"
+    space_capsule.style.display = "block"
 })

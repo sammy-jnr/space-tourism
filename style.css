@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* outline: 1px solid red; */
+    font-family: barlow;
 }
 #container{
     width: 100vw;
@@ -15,7 +16,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
-    display: none;
 }
 #logo_icon{
     width: 40px;
@@ -51,13 +51,13 @@
     text-align: center;
     margin: 15px 0;
     font-size: 17px;
-    color: white;
+    color: #D0D6F9;
+    line-height: 1.5;
 }
 .largetext{
     font-size: 70px;
     text-align: center;
     color: white;
-
 }
 #text_explore{
     width: 150px;
@@ -68,6 +68,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px 60px;
+    color: black;
 }
 
 /* destination page */
@@ -152,16 +153,18 @@
     color: white;
     text-align: center;
     height: 100px;
+    line-height: 1.5;
 }
 hr{
     margin: 25px 0;
-    height: 1px;
-    background-color: rgb(19, 21, 22);
+    top: 30px;
+    position: relative;
 }
 .destination_moon_text1{
     color: white;
     text-align: center;
     padding-bottom: 15px;
+    padding-top: 15px;
 }
 .destination_moon_text2{
     color: white;
@@ -171,7 +174,7 @@ hr{
 }
 
 /* crew page */
-#crew{
+#crewpage{
     background-image: url("mobileimages\\background-crew-mobile.jpg");
     position: absolute;
     width: 100vw;
@@ -179,6 +182,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
+    display: none;
 }
 #logo_icon3{
     width: 40px;
@@ -214,6 +218,7 @@ hr{
     align-items: center;
     justify-content: center;
     padding: 20px;
+    border: none;
 }
 .crew_imgs{
     position: absolute;
@@ -224,6 +229,7 @@ hr{
 #crew_hr{
     position: absolute;
     width: 300px;
+    top: 373px;
     bottom: 360px;
 }
 
@@ -236,6 +242,9 @@ hr{
     margin: 5px;
     position: relative;
     left: 90px;
+}
+#crewinfo1{
+    background-color: white;
 }
 .crew_text2{
     text-align: center;
@@ -267,3 +276,122 @@ hr{
     display: none;
 }
 
+#technologypage{
+    background-image: url("mobileimages\\background-technology-mobile.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    display: none;
+}
+#logo_icon4{
+    width: 40px;
+    height: 40px;
+    margin-top:30px;
+    margin-left: 30px;
+}
+#menuopen4,#menuclose4{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+#navbar4{
+    width: 254px;
+    height: 100vh;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+    display: none;
+    z-index: 2;
+}
+
+.technologytext1{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.techimg{
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    height: 220px;
+}
+#tech_changingdiv{
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50px;
+    margin: 20px 0;
+}
+#changediv1{
+    color: black;
+    background-color: white;
+}
+.tech_change_divs{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 14px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px grey solid;
+    color: white;
+}
+
+#tech_launch_vehicle{
+    position: absolute;
+    width: 100vw;
+    height: 350px;
+    top: 450px;
+}
+
+#tech_spaceport{
+    position: absolute;
+    width: 100vw;
+    height: 350px;
+    top: 450px;
+    display: none;
+}
+
+#tech_spacecapsule{
+    position: absolute;
+    width: 100vw;
+    height: 350px;
+    top: 450px;
+    display: none;
+}
+
+
+.technologytext2{
+    margin-top: 10px;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.technologytext3{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.technologytext4{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.3;
+    margin: 0 30px;
+}
