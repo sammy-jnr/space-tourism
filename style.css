@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+}
+#Homepage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("mobileimages\\background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    display: none;
+}
+#logo_icon{
+    width: 40px;
+    height: 40px;
+}
+#menuopen,#menuclose{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+#navbar{
+    width: 254px;
+    height: 100vh;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+    display: none;
+}
+.nav_items{
+    margin: 30px;
+    color: white;
+}
+#home_info_div{
+    min-width: 280px;
+    width: auto;
+    height: 250px;
+    margin: 100px 0px;
+}
+.text{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 17px;
+    color: white;
+}
+.largetext{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+
+}
+#text_explore{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+
+/* destination page */
+#destinationpage{
+    width: 100vw;
+    height: auto;
+    background-image: url("mobileimages\\background-destination-mobile.jpg");
+    padding: 30px;
+    display: none;
+}
+#logo_icon2{
+    width: 40px;
+    height: 40px;
+}
+#menuopen2,#menuclose2{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+#navbar2{
+    width: 254px;
+    height: 100vh;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+    display: none;
+    z-index: 2;
+}
+#emptydiv{
+    position: relative;
+    height: 180px;
+}
+#moonimg,#marsimg,#europaimg,#titanimg{
+    width: 160px;
+    left: 90px;
+    position: absolute;
+    top: 140px;
+}
+.destinations_div{
+    width: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 15px; 
+}
+#destination_moon_div{
+    width: auto;
+    height: auto;
+}
+#destination_mars_div{
+    width: auto;
+    height: auto;
+    display: none;
+}
+#destination_europa_div{
+    width: auto;
+    height: auto;
+    display: none;
+}
+#destination_titan_div{
+    width: auto;
+    height: auto;
+    display: none;
+}
+.active_destination{
+    border-bottom: 2px white solid;
+}
+.destinations{
+    padding-bottom: 5px;
+}
+.location{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px 0;
+}
+.locationtext{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+hr{
+    margin: 25px 0;
+    height: 1px;
+    background-color: rgb(19, 21, 22);
+}
+.destination_moon_text1{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.destination_moon_text2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+
+/* crew page */
+#crew{
+    background-image: url("mobileimages\\background-crew-mobile.jpg");
+    position: absolute;
+    width: 100vw;
+    height:  100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+#logo_icon3{
+    width: 40px;
+    height: 40px;
+}
+#menuopen3,#menuclose3{
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+#navbar3{
+    width: 254px;
+    height: 100vh;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+    display: none;
+    z-index: 2;
+}
+
+#crew_text1{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+#emptydiv2{
+    height: 300px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.crew_imgs{
+    position: absolute;
+    width: 160px;
+    height: 230px;
+    margin: 20px;
+}
+#crew_hr{
+    position: absolute;
+    width: 300px;
+    bottom: 360px;
+}
+
+.creinfos{
+    width: 13px;
+    height: 13px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+    left: 90px;
+}
+.crew_text2{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    margin-bottom: 10px;
+}
+.crew_text3{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+.crew_text4{
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+}
+#douglas_text,#crewimg4{
+    display: block;
+}
+#mark_text,#crewimg2{
+    display: none;
+}
+#victor_text,#crewimg3{
+    display: none;
+}
+#ansari_text,#crewimg1{
+    display: none;
+}
+
